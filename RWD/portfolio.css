@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+#welcome-section {
+  text-align: center;
+  height: 100vh;
+  background-color: white;
+  color: white;
+  size: 150%;
+}
+
+div h1 {
+  padding-top: 50vh;
+  text-align: center;
+  font-size: 200%;
+  color: #002F6C;
+}
+
+div h2 {
+text-align: center;
+  color: #002F6C;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #004680;
+  z-index: 1;
+  overflow: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  height: 40px;
+}
+
+li {
+  display: block;
+  width: 100px;
+  float: left;
+}
+
+hr {
+  margin-bottom: 45px;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: grey;
+}
+
+#profile-link {
+  text-align: center;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#project-banner {
+  width: 100%;
+  text-align: center;
+  color: #002F6C;
+  padding-bottom: 15px;
+}
+
+#container {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+      justify-content: center;
+  }
+  
+  .project-tile  {
+  width: 90%;
+  border: 1px solid grey;
+  margin: 15px;
+  position: relative;
+  float: left;
+}
+}
+
+@media only screen and (min-width: 601px) {
+  
+  #container {
+      justify-content: center;
+  }
+  
+.project-tile  {
+  width: 40%;
+  border: 1px solid grey;
+  margin: 15px;
+  position: relative;
+  float: left;
+}
+}
+
+@media only screen and (min-width: 966px) {
+  #container {
+      justify-content: flex-front;
+  }
+  
+.project-tile  {
+  width: 30%;
+  border: 1px solid grey;
+  margin: 15px;
+  position: relative;
+  float: left;
+}
+}
+
+.project-tile img {
+  max-width: 100%;
+}
+
+#profile-link {
+  max-width: 100%;
+  display: block;
+  color: white;
+  background-color: blue;
+  width: 25%;
+  font-size: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer>a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+
+

@@ -1,0 +1,160 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body { 
+  padding-top: 60px; 
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header-img {
+  padding-top: 5px;
+  position: fixed;
+  display: block;
+  width: 200px;
+  z-index: 1;
+  top: -5px;
+}
+
+i {
+  transform: scale(0.8);
+  color: orange;
+  padding-right: 10px;
+}
+
+form {
+  text-align: center;
+}
+
+#title {
+  margin-top: 50px;
+  text-align: center;
+  color: #222021;
+  font-size: 
+}
+
+#email {
+  width: 30%;
+  padding: 5px;
+  font-size: 120%;
+  overflow: auto;
+}
+
+#submit {
+  background-color: gold;
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5px;
+}
+
+nav {
+  display: block;
+  background-color: orange;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+  position: fixed;
+  margin-top: 0;
+  padding: 0;
+  top: 0;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  width: 80%;
+  background-color: white;
+}
+
+li a {
+  width: 10%;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 10px 30px 10px;
+  text-decoration: none;
+  float: right;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  width: 100%;
+  color: #222021;
+  background-color: #F5F5F5;
+  text-align: right;
+  margin-top: 15px;
+  padding: 15px 15px 5px 15px;
+}
+
+footer a {
+  padding: 15px;
+  text-decoration: none;
+  color: #222021;
+}
+
+footer div p {
+  padding-right: 15px;
+  text-decoration: none;
+  color: #222021;
+}
+
+
+
+
+  #box-container {
+    background-color: #F5F5F5;
+    border: 2px solid black;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    text-align: center;
+
+  }
+ 
+#box-container h1 {
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #C7C6C1;
+  color: #222021;
+  text-align: center;
+}
+
+#box-container a {
+  background-color: gold;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) { 
+  #header-img {
+    display: none;
+  }
+  
+  #box-container {
+    width: 100%;
+    clear: right;
+  }
+}
+
+@media (min-width: 601px) { 
+  #box {
+  display: flex;
+  flex-direction: row;
+}
+  
+ #box-container {
+    width: 30%;
+  }
+}
