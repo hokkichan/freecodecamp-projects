@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Roman numerals are a numeral system that originated in ancient Rome. Numbers in this system are represented by combinations of letters from the Latin alphabet. Modern usage employs seven symbols, each with a fixed integer value:-</p>
+
+<div id="table-container">
+<table>
+<thead>
+  <tr>
+    <th>Symbol</th>
+    <th>I</th>
+    <th>V</th>
+    <th>X</th>
+    <th>L</th>
+    <th>C</th>
+    <th>D</th>
+    <th>M</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Value</td>
+    <td>1</td>
+    <td>5</td>
+    <td>10</td>
+    <td>50</td>
+    <td>100</td>
+    <td>500</td>
+    <td>1000</td>
+  </tr>
+</tbody>
+</table>	
+</div>
+
+<p class="header">Please enter a numerical and convert to Roman number</p>
+<div class="center-div"><input type="number" id="numInput" name="numInput"></div>
+<div class="center-div"><input type="submit" value="Convert" onclick="convertToRoman()"></div>
+<h1 id="demo"></h1>
+
+<style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+th, td, tr {
+	padding: 5px;
+	border-color:black;
+	border-style:solid;
+}	
+
+table {
+  font-size: 2em;
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  text-align: center;
+  width: 50%;
+  margin:0 auto
+}
+
+.center-div
+{
+	display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 25px;
+     text-align: center;
+}
+
+input {
+text-align: center;
+font-size: 2em;
+}
+
+p {  display: block;
+    margin-left: auto;
+     margin-right: auto;
+	width: 60%;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+
+p.header {
+	font-size: 2em;
+	width: 100%;
+	text-align: center;
+	color: blue;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+</style>
+
+<script>
+
+function convertToRoman(numInput) {
+ var num = document.getElementById("numInput").value;
+ var roman = [];
+ var romanJoin;
+
+ while (num>=1000) {
+   roman.push("M");
+   num-=1000;
+ }
+ while (num>=900) {
+   roman.push("CM");
+   num-=900;
+ }
+ while (num>=500) {
+   roman.push("D");
+   num-=500;
+  while (num>=100 && num<400) {
+   roman.push("C");
+   num-=100;
+ }
+ }
+ while (num>=400) {
+   roman.push("CD");
+   num-=400;
+ }
+ while (num>=100) {
+   roman.push("C");
+   num-=100;
+ }
+ while (num>=90) {
+   roman.push("XC");
+   num-=90;
+ }
+ while (num>=50) {
+   roman.push("L");
+   num-=50;
+  while (num>=10 && num<40) {
+   roman.push("X");
+   num-=10;
+ }
+ }
+ while (num>=40) {
+   roman.push("XL");
+   num-=40;
+ }
+ while (num>=10) {
+   roman.push("X");
+   num-=10;
+ }
+ while (num==9) {
+   roman.push("IX");
+   num-=9;
+ }
+  while (num>=5) {
+   roman.push("V");
+   num-=5;
+   while (num>=1 && num<4) {
+   roman.push("I");
+   num-=1;
+ }
+ }
+ while (num==4) {
+   roman.push("IV");
+   num-=4;
+ }
+ while (num>=1) {
+   roman.push("I");
+   num-=1;
+ }
+ romanJoin = roman.join("");
+ document.getElementById("demo").innerHTML = romanJoin;
+}
+</script>
+
+
+
+
+
+
+</body>
+</html> 
