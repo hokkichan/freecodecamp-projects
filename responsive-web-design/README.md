@@ -23,10 +23,10 @@ This repository contains projects work for freeCodeCamp's Developer Certificatio
 
 ##### Live Preview [(Link)](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/technical-documentation-page)
 
-![Technical-documentation-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/technical-documentation-page.png)
+![Technical-documentation-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/images/technical-documentation-page.png)
 
 ## 5. Build a Personal Portfolio Webpage
 
 ##### Live Preview [(Link)](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/portfolio-page)
 
-![Portfolio-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/portfolio-page.png)
+![Portfolio-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/images/portfolio-page.png)
