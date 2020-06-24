@@ -3,30 +3,30 @@ This repository contains projects work for freeCodeCamp's Developer Certificatio
 
 ## 1. Build a Tribute Page
 
-##### Live Preview [(Link)](https://hokkichan.github.io/FCC.Projects/RWD/tribute.html)
+##### Live Preview [(Link)](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/tribute-page)
 
-![Tribute-page](https://hokkichan.github.io/project.se/codepen/tributepage.png)
+![Tribute-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/images/tribute-page.png)
 
 ## 2. Build a Survey Form
 
-##### Live Preview [(Link)](https://hokkichan.github.io/project.se/codepen/surveyform.png)
+##### Live Preview [(Link)](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/survey-form)
 
-![Survey-form-page](https://hokkichan.github.io/project.se/codepen/surveyform.png)
+![Survey-form-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/images/survey-form.png)
 
 ## 3. Build a Product Landing Page
 
-##### Live Preview [(Link)](https://hokkichan.github.io/FCC.Projects/RWD/product.html)
+##### Live Preview [(Link)](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/product-landing-page)
 
-![Product-landing-page](https://hokkichan.github.io/project.se/codepen/productlanding.png)
+![Product-landing-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/images/product-landing-page.png)
 
 ## 4. Build a Technical Documentation Page
 
-##### Live Preview [(Link)](https://hokkichan.github.io/FCC.Projects/RWD/documentationpage.html)
+##### Live Preview [(Link)](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/technical-documentation-page)
 
-![Technical-documentation-page](https://hokkichan.github.io/project.se/codepen/jsdocumentation.png)
+![Technical-documentation-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/technical-documentation-page.png)
 
 ## 5. Build a Personal Portfolio Webpage
 
-##### Live Preview [(Link)](https://hokkichan.github.io/FCC.Projects/RWD/portfolio.html)
+##### Live Preview [(Link)](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/portfolio-page)
 
-![Portfolio-page](https://raw.githubusercontent.com/hokkichan/FCC.Projects/master/RWD/Portfolio%20Cover.png)
+![Portfolio-page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/portfolio-page.png)
