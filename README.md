@@ -26,7 +26,7 @@
 
 ### Certification: https://www.freecodecamp.org/certification/hokkichan/javascript-algorithms-and-data-structures
 
-![Javascript-algorithms-and-data-structures-cert](https://hokkichan.github.io/freecodecamp-projects/certifications/javascript-algorithms-and-data-structures.png)
+![Javascript-algorithms-and-data-structures-cert](https://hokkichan.github.io/freecodecamp-projects/certifications/javascript-algorithms-and-data-structures-cert.png)
 
 ---
 
