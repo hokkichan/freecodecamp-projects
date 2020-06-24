@@ -4,11 +4,11 @@
 
 ## 1. Responsive Web Design Certification (300 hours) ✔
 
-- [Build A Tribute Page](https://hokkichan.github.io/FCC.Projects/RWD/tribute.html) ✔
-- [Build A Survey Form](https://hokkichan.github.io/FCC.Projects/RWD/survey.html) ✔
-- [Build A Product Landing Page](https://hokkichan.github.io/FCC.Projects/RWD/product.html) ✔
-- [Build A Technical Documentation Page](https://hokkichan.github.io/FCC.Projects/RWD/documentationpage.html) ✔
-- [Build A Personal Portfolio Webpage](https://hokkichan.github.io/FCC.Projects/RWD/portfolio.html) ✔
+- [Build A Tribute Page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/tribute-page) ✔
+- [Build A Survey Form](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/survey-form) ✔
+- [Build A Product Landing Page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/product-landing-page) ✔
+- [Build A Technical Documentation Page](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/technical-documentation-page) ✔
+- [Build A Personal Portfolio Webpage](https://hokkichan.github.io/freecodecamp-projects/responsive-web-design/portfolio-page) ✔
 
 ### Certification: https://www.freecodecamp.org/certification/hokkichan/responsive-web-design
 
@@ -18,11 +18,11 @@
 
 ## 2. JavaScript Algorithms and Data Structures Certification (300 hours) ✔
 
-- [Palindrome Checker](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/palindrome-checker.txt) ✔
-- [Roman Numeral Converter](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/roman-numeral-converter.txt) ✔
-- [Caesars Cipher](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/caesars-cipher.txt) ✔
-- [Telephone Number Validator](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/cash-register.txt) ✔
-- [Cash Register](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/cash-register.txt) ✔
+- [Palindrome Checker](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/palindrome-checker.js) ✔
+- [Roman Numeral Converter](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/roman-numeral-converter.js) ✔
+- [Caesars Cipher](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/caesars-cipher.js) ✔
+- [Telephone Number Validator](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/telephone-number-validator.js) ✔
+- [Cash Register](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/cash-register.js) ✔
 
 ### Certification: https://www.freecodecamp.org/certification/hokkichan/javascript-algorithms-and-data-structures
 
