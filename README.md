@@ -22,7 +22,7 @@
 - [Telephone Number Validator](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/cash-register.txt)✔
 - [Cash Register](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/cash-register.txt) ✔
 
-### Certification: https://www.freecodecamp.org/certification/talitastravassos/javascript-algorithms-and-data-structures
+### Certification: https://www.freecodecamp.org/certification/hokkichan/javascript-algorithms-and-data-structures
 
 ---
 
