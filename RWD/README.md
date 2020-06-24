@@ -29,4 +29,4 @@ This repository contains projects work for freeCodeCamp's Developer Certificatio
 
 ##### Live Preview [(Link)](https://hokkichan.github.io/FCC.Projects/RWD/portfolio.html)
 
-![Personal-portfolio-page](https://hokkichan.github.io/project.se/codepen/portfolio.png)
+![Personal-portfolio-page]
