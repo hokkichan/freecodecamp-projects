@@ -14,7 +14,7 @@
 
 ---
 
-## 2. JavaScript Algorithms and Data Structures Certification (300 hours)
+## 2. JavaScript Algorithms and Data Structures Certification (300 hours) ✔
 
 - [Palindrome Checker](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/palindrome-checker.txt) ✔
 - [Roman Numeral Converter](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/roman-numeral-converter.txt) ✔
