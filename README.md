@@ -19,7 +19,7 @@
 - [Palindrome Checker](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/palindrome-checker.txt) ✔
 - [Roman Numeral Converter](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/roman-numeral-converter.txt) ✔
 - [Caesars Cipher](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/caesars-cipher.txt) ✔
-- [Telephone Number Validator](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/cash-register.txt)✔
+- [Telephone Number Validator](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/cash-register.txt) ✔
 - [Cash Register](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/cash-register.txt) ✔
 
 ### Certification: https://www.freecodecamp.org/certification/hokkichan/javascript-algorithms-and-data-structures
