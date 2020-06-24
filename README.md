@@ -12,6 +12,8 @@
 
 ### Certification: https://www.freecodecamp.org/certification/hokkichan/responsive-web-design
 
+![Responsive-web-design-cert](https://hokkichan.github.io/freecodecamp-projects/certifications/responsive-web-design-cert.png)
+
 ---
 
 ## 2. JavaScript Algorithms and Data Structures Certification (300 hours) ✔
@@ -23,6 +25,8 @@
 - [Cash Register](https://github.com/hokkichan/FCC.Projects/blob/master/JS/txt/cash-register.txt) ✔
 
 ### Certification: https://www.freecodecamp.org/certification/hokkichan/javascript-algorithms-and-data-structures
+
+![Javascript-algorithms-and-data-structures-cert](https://hokkichan.github.io/freecodecamp-projects/certifications/javascript-algorithms-and-data-structures.png)
 
 ---
 
