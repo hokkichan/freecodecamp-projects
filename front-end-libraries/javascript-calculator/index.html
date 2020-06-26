@@ -1,10 +1,15 @@
 
 <script>
-//
-//function captureValue() {
- // var behineValue = this.input.value;
- // document.getElementById("display").innerHTML = behindValue;
-//}
+var behindValue = "";
+function captureValue(id) {
+  behindValue += document.getElementById(id).value;
+  document.getElementById("display").innerHTML = behindValue;
+}
+
+function reset() {
+  behindValue = "";
+  document.getElementById("display").innerHTML = 0; 
+}
 </script>
 
 
@@ -21,11 +26,11 @@
 <div id="display-container">
   <p id="display">0<p>
 </div><br>
-<button id="clear">AC</button><button id="divide">/</button><button id="multiply">x</button><br>
-<button id="seven">7</button><button id="eight">8</button><button id="nine">9</button><button id="subtract">-</button><br>
-<button id="four">4</button><button id="five">5</button><button id="six">6</button><button id="add">+</button><br>
-<input type="submit" id="one" value="1">1</input><button id="two">2</button><button id="three">3</button><button id="equals">=</button><br>
-<button id="zero">0</button><button id="decimal">.</button>
+<input class= "numbers" type="button" id="clear" value="AC" onclick="reset()"><button id="divide">/</button><button id="multiply">x</button><br>
+<input class= "numbers" type="button" id="seven" value="7" onclick="captureValue('seven')"><input class= "numbers" type="button" id="eight" value="8" onclick="captureValue('eight')"><input class= "numbers" type="button" id="nine" value="9" onclick="captureValue('nine')"><button id="subtract">-</button><br>
+<input class= "numbers" type="button" id="four" value="4" onclick="captureValue('four')"><input class= "numbers" type="button" id="five" value="5" onclick="captureValue('five')"><input class= "numbers" type="button" id="six" value="6" onclick="captureValue('six')"><button id="add">+</button><br>
+<input class= "numbers" type="button" id="one" value="1" onclick="captureValue('one')"></input><input class= "numbers" type="button" id="two" value="2" onclick="captureValue('two')"></input><input class= "numbers" type="button" id="three" value="3" onclick="captureValue('three')"></input><input class= "numbers" type="button" id="equals" value="=" onclick="captureValue('three')"></input><br>
+<input class= "numbers" type="button" id="zero" value="0" onclick="captureValue('zero')"><input class= "symbol" type="button" id="decimal" value="." onclick="captureValue('decimal')">
 
 
 </div>

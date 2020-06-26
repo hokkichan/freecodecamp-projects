@@ -1,3 +1,7 @@
+body {
+  margin-top: 45px;
+}
+
 .container {
   background-color: black;
   width: 400px;
@@ -10,6 +14,7 @@
   width: 100%;
   height: 60px;
   text-align: right;
+  font-size: 0;
 }
 
 #clear, #zero {
@@ -52,4 +57,6 @@ input {
   color: white;
   font-size: 20px;
   background-color: #A9A9A9;
+  margin: 0;
 }
+
