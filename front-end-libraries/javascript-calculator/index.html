@@ -1,14 +1,43 @@
 
 <script>
 var behindValue = "";
+var formulaValue = "";
 function captureValue(id) {
   behindValue += document.getElementById(id).value;
   document.getElementById("display").innerHTML = behindValue;
+  formulaValue += document.getElementById(id).value;
+  document.getElementById("formula").innerHTML = formulaValue;
+}
+
+function popPlus() {
+	formulaValue += "+";
+	behindValue = "";
+}
+
+function popSubtract() {
+	formulaValue += "-";
+	behindValue = "";
+}
+
+function popMultiply() {
+	formulaValue += "*";
+	behindValue = "";
+}
+
+function popDivide() {
+	formulaValue += "/";
+	behindValue = "";
 }
 
 function reset() {
   behindValue = "";
-  document.getElementById("display").innerHTML = 0; 
+  document.getElementById("display").innerHTML = 0;
+  formulaValue = ""; 
+  document.getElementById("formula").innerHTML = 0;
+}
+
+function calculate() {
+  document.getElementById("display").innerHTML =eval(formulaValue);
 }
 </script>
 
@@ -25,11 +54,12 @@ function reset() {
 <div class="container">
 <div id="display-container">
   <p id="display">0<p>
+  <p id="formula">0<p>
 </div><br>
-<input class= "numbers" type="button" id="clear" value="AC" onclick="reset()"><button id="divide">/</button><button id="multiply">x</button><br>
-<input class= "numbers" type="button" id="seven" value="7" onclick="captureValue('seven')"><input class= "numbers" type="button" id="eight" value="8" onclick="captureValue('eight')"><input class= "numbers" type="button" id="nine" value="9" onclick="captureValue('nine')"><button id="subtract">-</button><br>
-<input class= "numbers" type="button" id="four" value="4" onclick="captureValue('four')"><input class= "numbers" type="button" id="five" value="5" onclick="captureValue('five')"><input class= "numbers" type="button" id="six" value="6" onclick="captureValue('six')"><button id="add">+</button><br>
-<input class= "numbers" type="button" id="one" value="1" onclick="captureValue('one')"></input><input class= "numbers" type="button" id="two" value="2" onclick="captureValue('two')"></input><input class= "numbers" type="button" id="three" value="3" onclick="captureValue('three')"></input><input class= "numbers" type="button" id="equals" value="=" onclick="captureValue('three')"></input><br>
+<input class= "numbers" type="button" id="clear" value="AC" onclick="reset()"><input class= "calculations" type="button" id="divide" value="/" onclick="popDivide()"><input class= "calculations" type="button" id="multiply" value="x" onclick="popMultiply()"><br>
+<input class= "numbers" type="button" id="seven" value="7" onclick="captureValue('seven')"><input class= "numbers" type="button" id="eight" value="8" onclick="captureValue('eight')"><input class= "numbers" type="button" id="nine" value="9" onclick="captureValue('nine')"><input class= "calculations" type="button" id="subtract" value="-" onclick="popSubtract()"></input><br>
+<input class= "numbers" type="button" id="four" value="4" onclick="captureValue('four')"><input class= "numbers" type="button" id="five" value="5" onclick="captureValue('five')"><input class= "numbers" type="button" id="six" value="6" onclick="captureValue('six')"><input class= "calculations" type="button" id="add" value="+" onclick="popPlus()"><br>
+<input class= "numbers" type="button" id="one" value="1" onclick="captureValue('one')"></input><input class= "numbers" type="button" id="two" value="2" onclick="captureValue('two')"></input><input class= "numbers" type="button" id="three" value="3" onclick="captureValue('three')"></input><input class= "numbers" type="button" id="equals" value="=" onclick="calculate()"></input><br>
 <input class= "numbers" type="button" id="zero" value="0" onclick="captureValue('zero')"><input class= "symbol" type="button" id="decimal" value="." onclick="captureValue('decimal')">
 
 

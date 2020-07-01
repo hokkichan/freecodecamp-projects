@@ -1,7 +1,7 @@
 
 var express = require('express');
 var app = express();
-
+/** console.log("Hello World") */
 // --> 7)  Mount the Logger middleware here
 
 
@@ -50,7 +50,12 @@ var app = express();
 
 // This would be part of the basic setup of an Express app
 // but to allow FCC to run tests, the server is already active
-/** app.listen(process.env.PORT || 3000 ); */
+/** pp.listen(process.env.PORT || 3000 ); */
+
+app.get('/', function (req, res) {
+  let absolutePath = __dirname + "/views/index.html";
+  res.sendFile(absolutePath)
+})
 
 //---------- DO NOT EDIT BELOW THIS LINE --------------------
 
