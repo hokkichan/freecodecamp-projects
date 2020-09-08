@@ -8,7 +8,7 @@
 <body>
 <h1>Roman Numeral Converter</h1>
 
-<p>Roman numerals are a numeral system that originated in ancient Rome. Numbers in this system are represented by combinations of letters from the Latin alphabet. Modern usage employs seven symbols, each with a fixed integer value:-</p>
+<div class="center-div"><blockquote class="quote">Roman numerals are a numeral system that originated in ancient Rome. Numbers in this system are represented by combinations of letters from the Latin alphabet. Modern usage employs seven symbols, each with a fixed integer value:-</blockquote></div>
 
 <div id="table-container">
 <table>
@@ -39,9 +39,9 @@
 </table>	
 </div>
 
-<p class="header">Please enter a numerical and convert to Roman number</p>
-<div class="center-div"><input type="number" id="numInput" name="numInput"></input></div>
-<div class="center-div"><button class="btn btn-default" type="submit" value="Convert" onclick="convertToRoman()"></button></div>
+<p class="header">Please enter a numerical and convert to Roman number:-</p>
+<div class="center-div"><input type="number" id="numInput" name="numInput" placeholder="E.g. 2020"></input></div>
+<div class="center-div"><button class="btn btn-primary" type="submit" onclick="convertToRoman()">Convert</button></div>
 <h1 id="demo"></h1>
 
 <style>
@@ -51,21 +51,47 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+* {
+  color: #454F58;
+}
 
+body {
+  margin-top: 20px;
+}
+
+blockquote {
+  border-left: 4px solid #007bff;
+  padding: 15px;
+  background-color: #F7F7F8;
+  width: 60%;
+  text-align: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: auto;
+}
+
+.quote::before {
+  content: "\201c";
+  font-size: 40px;
+  color: #007bff;
+}
+
+input {
+  border-radius: 5px;
+}
 
 th, td, tr {
 	padding: 5px;
-	border-color:black;
+	border-color: #454F58;;
 	border-style:solid;
 }	
 
 table {
-  font-size: 2em;
+  font-size: 1.5em;
   border-spacing: 0.5rem;
-  border-collapse: collapse;
   text-align: center;
   width: 50%;
-  margin:0 auto
+  margin:0 auto;
 }
 
 .center-div
@@ -92,22 +118,24 @@ p {  display: block;
 
 
 p.header {
-	font-size: 2em;
+  margin-top: 15px;
+	font-size: 1.5em;
 	width: 100%;
 	text-align: center;
-	color: blue;
+	color: #007bff;
 }
 
 h1 {
 	font-size: 3em;
 	text-align: center;
 }
+
+#numInput {
+  font-size: 1.5em;
+}
 </style>
 
-<!-- Bootstrap JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 
 <script>
 
