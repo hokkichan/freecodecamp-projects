@@ -19,7 +19,7 @@
 ## 2. JavaScript Algorithms and Data Structures Certification (300 hours) ✔
 
 - [Palindrome Checker](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/palindrome-checker.js) ✔
-- [Roman Numeral Converter](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/roman-numeral-converter.js) ✔
+- [Roman Numeral Converter](https://hokkichan.github.io/freecodecamp-projects/javascript-algorithms-and-data-structures/roman-numeral-converter/index.html) ✔
 - [Caesars Cipher](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/caesars-cipher.js) ✔
 - [Telephone Number Validator](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/telephone-number-validator.js) ✔
 - [Cash Register](https://github.com/hokkichan/freecodecamp-projects/blob/master/javascript-algorithms-and-data-structures/script/cash-register.js) ✔
